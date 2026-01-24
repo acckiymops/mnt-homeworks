@@ -4,3 +4,12 @@ clickhouse_packages:
   - clickhouse-client
   - clickhouse-server
   - clickhouse-common-static
+clickhouse_endpoint: "http://localhost:8123"
+clickhouse_database: "logs"
+clickhouse_table: "syslog"
+syslog_path: "/var/log/syslog"
+
+vector_version: "0.34.0-1"
+vector_arch: "x86_64"
+vector_user: "vector"
+vector_group: "vector"

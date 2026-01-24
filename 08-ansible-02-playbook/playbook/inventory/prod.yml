@@ -2,4 +2,7 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: <IP_here>
+      ansible_host: 158.160.216.28
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mvmeles1
