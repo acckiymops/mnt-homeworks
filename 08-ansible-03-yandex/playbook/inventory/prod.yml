@@ -1,0 +1,22 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 158.160.211.101
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mvmeles1
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_host: 158.160.220.171
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mvmeles1
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 158.160.208.25
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mvmeles1
