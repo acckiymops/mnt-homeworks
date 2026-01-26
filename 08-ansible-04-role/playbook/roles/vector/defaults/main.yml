@@ -1,0 +1,4 @@
+---
+vector_version: "0.34.0-1"
+vector_arch: "x86_64"
+clickhouse_endpoint: "http://158.160.211.101:8123"
